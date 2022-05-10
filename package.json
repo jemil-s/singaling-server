@@ -1,0 +1,24 @@
+{
+  "name": "singaling-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemil-s/singaling-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemil-s/singaling-server/issues"
+  },
+  "homepage": "https://github.com/jemil-s/singaling-server#readme",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "ws": "^8.6.0"
+  }
+}
