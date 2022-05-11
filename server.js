@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require("uuid");
 
 const wss = new ws.Server(
   {
-    port: 4000,
+    port: 8080,
   },
   () => console.log(`Server started on 4000`)
 );
